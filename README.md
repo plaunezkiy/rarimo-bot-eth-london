@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# RariMe Discord Bot
+# RariMo Discord Bot
 
 Seamlessly integrate Rarimo, a MetaMask Snap for secure credential storage and identity verification using Zero-Knowledge Proof technology. Connects with Discord to enable server verification, ensuring a seamless and privacy-focused experience for users.
 
