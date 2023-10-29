@@ -49,6 +49,30 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Deploy on Vercel
+## User Flow
 
-![Click the “Verify](https://prnt.sc/KYAaklJZakuF)
+### Click the “Verify”
+
+(![Click the “Verify](https://github.com/plaunezkiy/rarimo-bot-eth-london/assets/104425700/6c71e6ef-31f1-4de5-a840-1b615aa5968f)
+)
+
+### Connect MetaMask / discord account
+
+![photo_2023-10-29_11-00-42](https://github.com/plaunezkiy/rarimo-bot-eth-london/assets/104425700/39befbd3-35a7-41b5-b1b1-25a8dd8e0d03)
+
+![photo_2023-10-29_11-00-46](https://github.com/plaunezkiy/rarimo-bot-eth-london/assets/104425700/1f5b7080-4469-4921-88de-aa4f88a9467d)
+
+![photo_2023-10-29_11-00-53](https://github.com/plaunezkiy/rarimo-bot-eth-london/assets/104425700/00ff6301-36e7-46bb-bf6e-628b69659c27)
+
+![photo_2023-10-29_11-00-50](https://github.com/plaunezkiy/rarimo-bot-eth-london/assets/104425700/bb64b134-b101-491e-bd92-c7f62bf2861d)
+
+
+### Visit the Proof of Humanity DApp if necessary
+
+![photo_2023-10-29_11-00-30](https://github.com/plaunezkiy/rarimo-bot-eth-london/assets/104425700/f154cb77-e43c-4e9c-b700-2116939c9de9)
+
+![photo_2023-10-29_11-00-57](https://github.com/plaunezkiy/rarimo-bot-eth-london/assets/104425700/420c1d4e-5127-426b-922a-ce8a84748a21)
+
+
+
+
