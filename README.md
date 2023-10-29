@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# RariMo Discord Bot
+
+Seamlessly integrate Rarimo, a MetaMask Snap for secure credential storage and identity verification using Zero-Knowledge Proof technology. Connects with Discord to enable server verification, ensuring a seamless and privacy-focused experience for users.
+
+## Overview
+
+This Discord bot facilitates user verification through the Proof of Humanity (PoH) process. Users can seamlessly connect their Discord accounts and MetaMask wallets to earn a custom role on Discord servers. Server administrators gain control over the assigned role and welcome message customization. The bot offers essential commands for managing roles and configurations.
+
+## Features
+
+- Utilizes the PoH verification method.
+- Grants verified users custom roles on Discord.
+- Empowers server admins to configure roles and greetings.
+
 ## Getting Started
 
 First, run the development server:
