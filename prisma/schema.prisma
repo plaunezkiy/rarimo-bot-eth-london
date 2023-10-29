@@ -1,0 +1,22 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Records {
+  id               String  @id @default(cuid())
+  server_id        String
+  discord_id       String? 
+  discord_username String?
+  wallet_address   String?
+  is_redirected    Boolean @default(false)
+  is_verified      Boolean @default(false)
+  completed        Boolean @default(false)
+}
