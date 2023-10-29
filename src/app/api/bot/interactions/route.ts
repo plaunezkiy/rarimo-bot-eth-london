@@ -1,5 +1,5 @@
-import { commands, RandomPicType } from "@/commands";
-import { verifyInteractionRequest } from "@/discord/verify-incoming-request";
+import { commands } from "@/utils/discord/commands";
+import { verifyInteractionRequest } from "@/utils/discord/verify-incoming-request";
 import {
   APIInteractionDataOptionBase,
   ApplicationCommandOptionType,
@@ -8,7 +8,6 @@ import {
   MessageFlags,
 } from "discord-api-types/v10";
 import { NextResponse } from "next/server";
-import { getRandomPic } from "./random-pic";
 
 /**
  * Use edge runtime which is faster, cheaper, and has no cold-boot.
@@ -60,23 +59,18 @@ export async function POST(request: Request) {
             flags: MessageFlags.Ephemeral,
           },
         });
-
-      case commands.randompic.name:
-        const { options } = interaction.data;
-        if (!options) {
-          return new NextResponse("Invalid request", { status: 400 });
-        }
-
-        const { value } = options[0] as APIInteractionDataOptionBase<
-          ApplicationCommandOptionType.String,
-          RandomPicType
-        >;
-        const embed = await getRandomPic(value);
-        return NextResponse.json({
-          type: InteractionResponseType.ChannelMessageWithSource,
-          data: { embeds: [embed] },
-        });
-
+      case commands.help.name:
+        return NextResponse.json({});
+      case commands.configure_role.name:
+        return NextResponse.json({});
+      case commands.configure_dm_message.name:
+        return NextResponse.json({});
+      case commands.configure_dm_prompt.name:
+        return NextResponse.json({});
+      case commands.verify.name:
+        return NextResponse.json({});
+      case commands.support.name:
+        return NextResponse.json({});
       default:
       // Pass through, return error at end of function
     }

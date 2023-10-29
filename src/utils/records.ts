@@ -48,7 +48,7 @@ export const updateRecord = async ({
     completed?: boolean;
   };
 }) => {
-  await prisma.records.update({
+  return await prisma.records.update({
     where: { id: record_id },
     data: {
       discord_id: discordUser?.id,
